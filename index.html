@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>King of Cut – Barbershop in Marktoberdorf</title>
+  <meta name="description" content="King of Cut – dein Barbershop in Marktoberdorf. Präzise Fades, scharfe Konturen, Bartpflege und Rasur. 4,8 Sterne bei über 140 Google-Bewertungen. Georg-Fischer-Straße 10A.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="King of Cut – Barbershop in Marktoberdorf">
+  <meta property="og:description" content="Präzise Schnitte. Scharfe Konturen. Echte Mancave.">
+  <meta property="og:image" content="assets/img/hero-shop.webp">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/img/hero-shop.webp">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "King of Cut",
+    "description": "Barbershop in Marktoberdorf",
+    "image": "assets/img/hero-shop.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Georg-Fischer-Straße 10A",
+      "postalCode": "87616",
+      "addressLocality": "Marktoberdorf",
+      "addressCountry": "DE"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "12:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Intro-Loader -->
+  <div class="loader" aria-hidden="true">
+    <svg class="loader-crown" viewBox="0 0 64 48" fill="none">
+      <path pathLength="1" d="M8 38 5 13l13.5 11L32 6l13.5 18L59 13l-3 25Z" />
+      <path pathLength="1" d="M9 44h46" />
+    </svg>
+    <span class="loader-word">King of Cut</span>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#top" aria-label="King of Cut – nach oben">
+        <svg viewBox="0 0 64 48" fill="none" aria-hidden="true"><path d="M8 38 5 13l13.5 11L32 6l13.5 18L59 13l-3 25Z"/><path d="M9 44h46"/></svg>
+        <span>King of Cut</span>
+      </a>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ritual">Das Ritual</a>
+        <a href="#bewertungen">Bewertungen</a>
+        <a href="#zeiten">Öffnungszeiten</a>
+        <a href="#standort">Standort</a>
+      </nav>
+      <a class="nav-status" href="#zeiten" data-status-pill><i></i><span>Öffnungszeiten</span></a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile Navigation">
+      <a href="#leistungen" style="--i:0">Leistungen</a>
+      <a href="#ritual" style="--i:1">Das Ritual</a>
+      <a href="#bewertungen" style="--i:2">Bewertungen</a>
+      <a href="#zeiten" style="--i:3">Öffnungszeiten</a>
+      <a href="#standort" style="--i:4">Standort</a>
+    </nav>
+    <p class="mobile-menu-foot" style="--i:5">Georg-Fischer-Straße 10A · 87616 Marktoberdorf</p>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="scene hero" id="top" data-scene="hero" style="--h:230vh">
+      <div class="sticky">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/img/hero-shop.webp" alt="" fetchpriority="high">
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <svg class="hero-crown" viewBox="0 0 64 48" fill="none" aria-hidden="true">
+            <path pathLength="1" d="M8 38 5 13l13.5 11L32 6l13.5 18L59 13l-3 25Z"/>
+            <path pathLength="1" d="M9 44h46"/>
+            <circle cx="5" cy="13" r="2.4"/><circle cx="32" cy="6" r="2.4"/><circle cx="59" cy="13" r="2.4"/>
+          </svg>
+          <p class="eyebrow hero-eyebrow">Barbershop · Marktoberdorf</p>
+          <h1 class="hero-title" data-letters>King of Cut<span class="gold-dot">.</span></h1>
+          <p class="hero-sub">Präzise Schnitte. Scharfe Konturen. Echte Mancave.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold magnetic" href="#zeiten"><span>Öffnungszeiten</span></a>
+            <a class="btn btn-ghost magnetic" href="#standort"><span>Route planen</span></a>
+          </div>
+          <a class="rating-chip" href="#bewertungen">
+            <span class="rating-stars" aria-hidden="true">★★★★★</span>
+            <strong>4,8</strong><span>· 144 Google-Bewertungen</span>
+          </a>
+        </div>
+
+        <div class="hero-statement" aria-hidden="true">
+          <p>Hier wird nicht einfach geschnitten.<br><span class="gold">Hier wirst du gekrönt.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFEST: Wörter füllen sich beim Scrollen -->
+    <section class="scene manifest" data-scene="words" style="--h:200vh" aria-label="Über uns">
+      <div class="sticky">
+        <div class="container">
+          <p class="eyebrow">Über King of Cut</p>
+          <p class="manifest-text" data-words>
+            Für Männer und Jungs, die zu echten <em class="gold">Männern</em> werden wollen.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZAHLEN -->
+    <section class="stats light">
+      <div class="container">
+        <h2 class="section-title split">Zahlen, die für sich <span class="gold">sprechen.</span></h2>
+        <div class="stats-grid">
+          <div class="stat reveal" style="--d:0">
+            <span class="stat-num"><span data-count="4.8" data-decimals="1">0</span><small>★</small></span>
+            <span class="stat-label">Durchschnitt auf Google</span>
+          </div>
+          <div class="stat reveal" style="--d:1">
+            <span class="stat-num"><span data-count="144">0</span><small>+</small></span>
+            <span class="stat-label">Google-Bewertungen</span>
+          </div>
+          <div class="stat reveal" style="--d:2">
+            <span class="stat-num"><span data-count="5">0</span><small>Tage</small></span>
+            <span class="stat-label">pro Woche für dich da (Di – Sa)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEISTUNGEN: Bento-Grid -->
+    <section class="services light" id="leistungen">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Leistungen</p>
+          <h2 class="section-title split">Alles, was ein König <span class="gold">braucht.</span></h2>
+          <p class="section-lead reveal" style="--d:2">Vom klassischen Herrenschnitt bis zum sauberen Fade: mit Ruhe, Präzision und einem Auge fürs Detail.</p>
+        </div>
+
+        <div class="bento">
+          <article class="tile tile-a reveal-scale" style="--d:0">
+            <div class="tile-media"><img src="assets/img/clipper.webp" alt="Barber schneidet einen Fade mit der Haarschneidemaschine" loading="lazy" data-parallax="0.12"></div>
+            <div class="tile-body">
+              <span class="tile-kicker">01</span>
+              <h3>Fades &amp; Übergänge.</h3>
+              <p>Nahtlos verblendet, vom Low bis zum Skin Fade.</p>
+            </div>
+          </article>
+          <article class="tile tile-b reveal-scale" style="--d:1">
+            <div class="tile-media"><img src="assets/img/beard.webp" alt="Bartpflege mit Bürste" loading="lazy" data-parallax="0.1"></div>
+            <div class="tile-body">
+              <span class="tile-kicker">02</span>
+              <h3>Bartpflege.</h3>
+              <p>Form, Kontur und Pflege für einen Bart mit Haltung.</p>
+            </div>
+          </article>
+          <article class="tile tile-c reveal-scale" style="--d:2">
+            <div class="tile-media"><img src="assets/img/shave.webp" alt="Rasur mit Rasierschaum" loading="lazy" data-parallax="0.1"></div>
+            <div class="tile-body">
+              <span class="tile-kicker">03</span>
+              <h3>Rasur.</h3>
+              <p>Glatt, gründlich, entspannt.</p>
+            </div>
+          </article>
+          <article class="tile tile-d reveal-scale" style="--d:3">
+            <div class="tile-media"><img src="assets/img/razor-line.webp" alt="Konturen werden mit dem Messer nachgezogen" loading="lazy" data-parallax="0.12"></div>
+            <div class="tile-body">
+              <span class="tile-kicker">04</span>
+              <h3>Konturen.</h3>
+              <p>Linien, so scharf wie dein Auftritt.</p>
+            </div>
+          </article>
+          <article class="tile tile-e reveal-scale" style="--d:1">
+            <div class="tile-media"><img src="assets/img/scissors.webp" alt="Haarschnitt mit Schere und Kamm" loading="lazy" data-parallax="0.1"></div>
+            <div class="tile-body">
+              <span class="tile-kicker">05</span>
+              <h3>Klassischer Schnitt.</h3>
+              <p>Schere, Kamm und Geduld. Sitzt, passt, wächst schön raus.</p>
+            </div>
+          </article>
+          <article class="tile tile-f tile-quote reveal-scale" style="--d:2">
+            <svg class="quote-crown" viewBox="0 0 64 48" fill="none" aria-hidden="true"><path d="M8 38 5 13l13.5 11L32 6l13.5 18L59 13l-3 25Z"/><path d="M9 44h46"/></svg>
+            <blockquote>„Hat etwas von einer Mancave&nbsp;😀&nbsp;Nice!“</blockquote>
+            <p class="quote-by">Dirk H. · Google-Rezension</p>
+          </article>
+          <article class="tile tile-g reveal-scale" style="--d:0">
+            <div class="tile-media"><img src="assets/img/hero-shop.webp" alt="Innenansicht eines Barbershops" loading="lazy" data-parallax="0.14"></div>
+            <div class="tile-body tile-body-row">
+              <div>
+                <span class="tile-kicker">Deine Mancave</span>
+                <h3>Mitten in Marktoberdorf.</h3>
+                <p>Georg-Fischer-Straße 10A</p>
+              </div>
+              <a class="btn btn-light magnetic" href="#standort"><span>Hinkommen</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPAND: Bild wächst zum Vollbild -->
+    <section class="scene expand" data-scene="expand" style="--h:320vh" aria-label="Nimm Platz">
+      <div class="sticky">
+        <h2 class="expand-pre">Nimm <span class="gold">Platz.</span></h2>
+        <div class="expand-frame">
+          <img src="assets/img/chair.webp" alt="Klassischer Barber-Stuhl aus Leder" loading="lazy">
+        </div>
+        <div class="expand-copy">
+          <p class="eyebrow">Der Stuhl</p>
+          <h2>Dein Thron wartet.</h2>
+          <p>Lehn dich zurück. Den Rest übernehmen wir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RITUAL: Horizontal-Scroll -->
+    <section class="scene ritual" id="ritual" data-scene="horizontal" aria-label="Das Ritual">
+      <div class="sticky">
+        <div class="h-track">
+          <div class="h-card h-intro">
+            <p class="eyebrow">Das Ritual</p>
+            <h2>Fünf Schritte.<br><span class="gold">Eine Krone.</span></h2>
+            <p class="h-hint">Weiter scrollen <span aria-hidden="true">→</span></p>
+          </div>
+          <article class="h-card">
+            <div class="h-media"><img src="assets/img/hero-shop.webp" alt="" loading="lazy"></div>
+            <div class="h-body"><span class="h-num">01</span><h3>Ankommen</h3><p>Jacke aus, durchatmen. Die Mancave empfängt dich.</p></div>
+          </article>
+          <article class="h-card">
+            <div class="h-media"><img src="assets/img/comb-cut.webp" alt="" loading="lazy"></div>
+            <div class="h-body"><span class="h-num">02</span><h3>Beratung</h3><p>Was willst du? Wir hören zu und sagen dir ehrlich, was passt.</p></div>
+          </article>
+          <article class="h-card">
+            <div class="h-media"><img src="assets/img/scissors.webp" alt="" loading="lazy"></div>
+            <div class="h-body"><span class="h-num">03</span><h3>Der Schnitt</h3><p>Maschine, Schere, Präzision. Schicht für Schicht.</p></div>
+          </article>
+          <article class="h-card">
+            <div class="h-media"><img src="assets/img/dark-shave.webp" alt="" loading="lazy"></div>
+            <div class="h-body"><span class="h-num">04</span><h3>Bart &amp; Kontur</h3><p>Klare Linien, gepflegte Form, alles sitzt.</p></div>
+          </article>
+          <article class="h-card">
+            <div class="h-media"><img src="assets/img/styling.webp" alt="" loading="lazy"></div>
+            <div class="h-body"><span class="h-num">05</span><h3>Das Finish</h3><p>Styling, ein letzter Blick in den Spiegel. Krone sitzt.</p></div>
+          </article>
+        </div>
+        <div class="h-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+
+    <!-- Großer Lauftext, reagiert auf Scroll-Geschwindigkeit -->
+    <div class="big-marquee" data-marquee data-speed="70" data-velocity="0.18" data-skew aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>King of Cut</span><i>✦</i><span class="outline">Barbershop</span><i>✦</i><span>Marktoberdorf</span><i>✦</i><span class="outline">Mancave</span><i>✦</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEWERTUNGEN -->
+    <section class="reviews light" id="bewertungen">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow reveal">Bewertungen</p>
+          <h2 class="section-title split">4,8 von 5. <span class="gold">Sagen nicht wir.</span></h2>
+        </div>
+        <div class="platforms">
+          <div class="platform reveal" style="--d:1">
+            <span class="platform-score">4,8</span>
+            <span class="platform-stars" style="--r:4.8" aria-label="4,8 von 5 Sternen"></span>
+            <span class="platform-name">Google · 144 Rezensionen</span>
+          </div>
+          <div class="platform reveal" style="--d:2">
+            <span class="platform-score">4,7</span>
+            <span class="platform-stars" style="--r:4.7" aria-label="4,7 von 5 Sternen"></span>
+            <span class="platform-name">golocal · 3 Rezensionen</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Läuft von links nach rechts. Weitere echte Bewertungen einfach als <article class="review"> ergänzen. -->
+      <div class="review-marquee" data-marquee data-speed="45" data-velocity="0.05" data-pause-hover>
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <article class="review">
+              <div class="review-stars" aria-label="5 von 5 Sternen">★★★★★</div>
+              <p>„Guter Schnitt! Sehr freundlich und professionell. Hat etwas von einer Mancave 😀 Nice!“</p>
+              <footer><span class="avatar">D</span><div><strong>Dirk H.</strong><span>Google-Rezension</span></div></footer>
+            </article>
+            <article class="review">
+              <div class="review-stars" aria-label="5 von 5 Sternen">★★★★★</div>
+              <p>„Topp Friseur! War spontan während dem Urlaub bei ihm! Super Schnitt, nette Unterhaltung, nur zu empfehlen! Der Mann versteht sein Handwerk! Ich komme wieder :-)“</p>
+              <footer><span class="avatar">A</span><div><strong>Audi 200quattro20v</strong><span>Google-Rezension</span></div></footer>
+            </article>
+            <article class="review">
+              <div class="review-stars" aria-label="4 von 5 Sternen">★★★★<span class="off">★</span></div>
+              <p>„… Super Friseur, immer akkurat und saubere Haarschnitte.“</p>
+              <footer><span class="avatar">G</span><div><strong>Rezensent von golocal</strong><span>golocal-Rezension</span></div></footer>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="container reviews-cta reveal">
+        <a class="btn btn-dark magnetic" href="https://www.google.com/search?q=King+of+Cut+Marktoberdorf+Rezensionen" target="_blank" rel="noopener"><span>Alle Bewertungen auf Google</span></a>
+      </div>
+    </section>
+
+    <!-- ÖFFNUNGSZEITEN -->
+    <section class="hours" id="zeiten">
+      <div class="hours-glow" aria-hidden="true"></div>
+      <div class="container hours-grid">
+        <div class="hours-left">
+          <p class="eyebrow reveal">Öffnungszeiten</p>
+          <h2 class="section-title split">Wann du gekrönt <span class="gold">wirst.</span></h2>
+
+          <div class="status-card reveal" style="--d:2" data-status>
+            <div class="status-top">
+              <span class="status-dot"></span>
+              <span class="status-label" data-status-label>Öffnungszeiten</span>
+              <span class="status-clock" data-clock></span>
+            </div>
+            <p class="status-detail" data-status-detail>Di – Fr 12:00 – 19:00 Uhr · Sa 10:00 – 18:00 Uhr</p>
+            <div class="day-progress" data-day-progress>
+              <div class="dp-track"><div class="dp-fill"></div><div class="dp-now"></div></div>
+              <div class="dp-labels"><span data-dp-start></span><span data-dp-end></span></div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="week" data-week>
+          <li data-day="1" class="reveal" style="--d:0"><span class="w-day">Montag</span><span class="w-bar"><i></i></span><span class="w-time">Geschlossen</span></li>
+          <li data-day="2" class="reveal" style="--d:1"><span class="w-day">Dienstag</span><span class="w-bar"><i></i></span><span class="w-time">12:00 – 19:00</span></li>
+          <li data-day="3" class="reveal" style="--d:2"><span class="w-day">Mittwoch</span><span class="w-bar"><i></i></span><span class="w-time">12:00 – 19:00</span></li>
+          <li data-day="4" class="reveal" style="--d:3"><span class="w-day">Donnerstag</span><span class="w-bar"><i></i></span><span class="w-time">12:00 – 19:00</span></li>
+          <li data-day="5" class="reveal" style="--d:4"><span class="w-day">Freitag</span><span class="w-bar"><i></i></span><span class="w-time">12:00 – 19:00</span></li>
+          <li data-day="6" class="reveal" style="--d:5"><span class="w-day">Samstag</span><span class="w-bar"><i></i></span><span class="w-time">10:00 – 18:00</span></li>
+          <li data-day="0" class="reveal" style="--d:6"><span class="w-day">Sonntag</span><span class="w-bar"><i></i></span><span class="w-time">Geschlossen</span></li>
+        </ul>
+      </div>
+      <p class="container hours-note reveal">An Feiertagen können die Öffnungszeiten abweichen.</p>
+    </section>
+
+    <!-- STANDORT -->
+    <section class="location light" id="standort">
+      <div class="container location-grid">
+        <div class="location-info">
+          <p class="eyebrow reveal">Standort</p>
+          <h2 class="section-title split">Komm <span class="gold">vorbei.</span></h2>
+          <address class="address reveal" style="--d:2">
+            <strong>King of Cut</strong>
+            Georg-Fischer-Straße 10A<br>
+            87616 Marktoberdorf
+          </address>
+          <div class="location-actions reveal" style="--d:3">
+            <a class="btn btn-dark magnetic" href="https://www.google.com/maps/dir/?api=1&amp;destination=King+of+Cut+Georg-Fischer-Stra%C3%9Fe+10A+87616+Marktoberdorf" target="_blank" rel="noopener"><span>Route mit Google Maps</span></a>
+            <a class="btn btn-outline magnetic" href="https://maps.apple.com/?daddr=Georg-Fischer-Stra%C3%9Fe+10A,+87616+Marktoberdorf" target="_blank" rel="noopener"><span>Apple Karten</span></a>
+          </div>
+        </div>
+
+        <div class="map-card reveal-scale" data-map>
+          <div class="map-placeholder">
+            <img src="assets/img/hero-shop.webp" alt="" loading="lazy" data-parallax="0.08">
+            <div class="map-consent">
+              <svg class="map-pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+              <p>Beim Laden der Karte werden Daten an Google übertragen. Mehr dazu in der <a href="datenschutz.html#maps">Datenschutzerklärung</a>.</p>
+              <button class="btn btn-light" type="button" data-map-load><span>Karte laden</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-label="Besuch uns">
+      <div class="cta-media" aria-hidden="true"><img src="assets/img/tools.webp" alt="" loading="lazy" data-parallax="0.25"></div>
+      <div class="cta-content container">
+        <svg class="cta-crown reveal" viewBox="0 0 64 48" fill="none" aria-hidden="true"><path pathLength="1" d="M8 38 5 13l13.5 11L32 6l13.5 18L59 13l-3 25Z"/><path pathLength="1" d="M9 44h46"/></svg>
+        <h2 class="cta-title split">Bereit für die <span class="gold">Krone?</span></h2>
+        <p class="reveal" style="--d:2">Di – Fr 12 – 19 Uhr · Sa 10 – 18 Uhr</p>
+        <div class="cta-actions reveal" style="--d:3">
+          <a class="btn btn-gold magnetic" href="#standort"><span>Route planen</span></a>
+          <a class="btn btn-ghost magnetic" href="https://www.google.com/search?q=King+of+Cut+Marktoberdorf" target="_blank" rel="noopener"><span>Bewertung schreiben</span></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="#top">
+          <svg viewBox="0 0 64 48" fill="none" aria-hidden="true"><path d="M8 38 5 13l13.5 11L32 6l13.5 18L59 13l-3 25Z"/><path d="M9 44h46"/></svg>
+          King of Cut
+        </a>
+        <p>Barbershop in Marktoberdorf</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Besuch</h4>
+          <p>Georg-Fischer-Straße 10A<br>87616 Marktoberdorf</p>
+        </div>
+        <div>
+          <h4>Öffnungszeiten</h4>
+          <p>Di – Fr: 12:00 – 19:00<br>Sa: 10:00 – 18:00<br>So &amp; Mo: geschlossen</p>
+        </div>
+        <div>
+          <h4>Entdecken</h4>
+          <p><a href="#leistungen">Leistungen</a><br><a href="#bewertungen">Bewertungen</a><br><a href="#zeiten">Öffnungszeiten</a></p>
+        </div>
+        <div>
+          <h4>Rechtliches</h4>
+          <p><a href="impressum.html">Impressum</a><br><a href="datenschutz.html">Datenschutz</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> King of Cut. Alle Rechte vorbehalten.</span>
+        <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
